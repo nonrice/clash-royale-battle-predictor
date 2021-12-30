@@ -64,132 +64,132 @@
 62,62,Magic Archer
 63,63,Electro Dragon
 64,64,Firecracker
-65,65,
-66,66,
-67,67,Elixir Golem
-68,68,Battle Healer
-69,69,Skeleton King
-70,70,
-71,71,
-72,72,Archer Queen
-73,73,
-74,74,Golden Knight
+65,65,Elixir Golem
+66,66,Battle Healer
+67,67,Skeleton King
+68,68,Archer Queen
+69,69,Golden Knight
+70,70,Skeleton Dragons
+71,71,Mother Witch
+72,72,Electro Spirit
+73,73,Electro Giant
+74,74,Cannon
 75,75,Goblin Hut
 76,76,Mortar
 77,77,Inferno Tower
 78,78,Bomb Tower
 79,79,Barbarian Hut
-80,80,Skeleton Dragons
+80,80,Tesla
 81,81,Elixir Collector
 82,82,X-Bow
 83,83,Tombstone
-84,84,Electro Spirit
-85,85,Electro Giant
-86,86,Goblin Cage
-87,87,Goblin Drill
-88,88,Fireball
-89,89,Arrows
-90,90,Rage
-91,91,Rocket
-92,92,Goblin Barrel
-93,93,Freeze
-94,94,Mirror
-95,95,Lightning
-96,96,Zap
-97,97,Poison
-98,98,Graveyard
-99,99,The Log
-100,100,Tornado
-101,101,Clone
-102,102,Earthquake
-103,103,Barbarian Barrel
-104,104,Heal Spirit
-105,105,Knight
-106,106,Archers
-107,107,Goblins
-108,108,Giant
-109,109,P.E.K.K.A
-110,110,Minions
-111,111,Balloon
-112,112,Witch
-113,113,Barbarians
-114,114,Golem
-115,115,Skeletons
-116,116,Valkyrie
-117,117,Skeleton Army
-118,118,Bomber
-119,119,Musketeer
-120,120,Baby Dragon
-121,121,Prince
-122,122,Wizard
-123,123,Mini P.E.K.K.A
-124,124,Spear Goblins
-125,125,Giant Skeleton
-126,126,Hog Rider
-127,127,Minion Horde
-128,128,Ice Wizard
-129,129,Royal Giant
-130,130,Guards
-131,131,Princess
-132,132,Dark Prince
-133,133,Three Musketeers
-134,134,Lava Hound
-135,135,Ice Spirit
-136,136,Fire Spirit
-137,137,Miner
-138,138,Sparky
-139,139,Bowler
-140,140,Lumberjack
-141,141,Battle Ram
-142,142,Inferno Dragon
-143,143,Ice Golem
-144,144,Mega Minion
-145,145,Dart Goblin
-146,146,Goblin Gang
-147,147,Electro Wizard
-148,148,Elite Barbarians
-149,149,Hunter
-150,150,Executioner
-151,151,Bandit
-152,152,Royal Recruits
-153,153,Night Witch
-154,154,Bats
-155,155,Royal Ghost
-156,156,Ram Rider
-157,157,Zappies
-158,158,Rascals
-159,159,Cannon Cart
-160,160,Mega Knight
-161,161,Skeleton Barrel
-162,162,Flying Machine
-163,163,Wall Breakers
-164,164,Royal Hogs
-165,165,Goblin Giant
-166,166,Fisherman
-167,167,Magic Archer
-168,168,Electro Dragon
-169,169,Firecracker
-170,170,
-171,171,
-172,172,Elixir Golem
-173,173,Battle Healer
-174,174,Skeleton King
-175,175,
-176,176,
-177,177,Archer Queen
-178,178,
-179,179,Golden Knight
-180,180,Goblin Hut
-181,181,Mortar
-182,182,Inferno Tower
-183,183,Bomb Tower
-184,184,Barbarian Hut
-185,185,Tesla
-186,186,Elixir Collector
-187,187,X-Bow
-188,188,Tombstone
-189,189,Electro Spirit
-190,190,Electro Giant
+84,84,Furnace
+85,85,Goblin Cage
+86,86,Goblin Drill
+87,87,Fireball
+88,88,Arrows
+89,89,Rage
+90,90,Rocket
+91,91,Goblin Barrel
+92,92,Freeze
+93,93,Mirror
+94,94,Lightning
+95,95,Zap
+96,96,Poison
+97,97,Graveyard
+98,98,The Log
+99,99,Tornado
+100,100,Clone
+101,101,Earthquake
+102,102,Barbarian Barrel
+103,103,Heal Spirit
+104,104,Giant Snowball
+105,105,Royal Delivery
+106,106,Knight
+107,107,Archers
+108,108,Goblins
+109,109,Giant
+110,110,P.E.K.K.A
+111,111,Minions
+112,112,Balloon
+113,113,Witch
+114,114,Barbarians
+115,115,Golem
+116,116,Skeletons
+117,117,Valkyrie
+118,118,Skeleton Army
+119,119,Bomber
+120,120,Musketeer
+121,121,Baby Dragon
+122,122,Prince
+123,123,Wizard
+124,124,Mini P.E.K.K.A
+125,125,Spear Goblins
+126,126,Giant Skeleton
+127,127,Hog Rider
+128,128,Minion Horde
+129,129,Ice Wizard
+130,130,Royal Giant
+131,131,Guards
+132,132,Princess
+133,133,Dark Prince
+134,134,Three Musketeers
+135,135,Lava Hound
+136,136,Ice Spirit
+137,137,Fire Spirit
+138,138,Miner
+139,139,Sparky
+140,140,Bowler
+141,141,Lumberjack
+142,142,Battle Ram
+143,143,Inferno Dragon
+144,144,Ice Golem
+145,145,Mega Minion
+146,146,Dart Goblin
+147,147,Goblin Gang
+148,148,Electro Wizard
+149,149,Elite Barbarians
+150,150,Hunter
+151,151,Executioner
+152,152,Bandit
+153,153,Royal Recruits
+154,154,Night Witch
+155,155,Bats
+156,156,Royal Ghost
+157,157,Ram Rider
+158,158,Zappies
+159,159,Rascals
+160,160,Cannon Cart
+161,161,Mega Knight
+162,162,Skeleton Barrel
+163,163,Flying Machine
+164,164,Wall Breakers
+165,165,Royal Hogs
+166,166,Goblin Giant
+167,167,Fisherman
+168,168,Magic Archer
+169,169,Electro Dragon
+170,170,Firecracker
+171,171,Elixir Golem
+172,172,Battle Healer
+173,173,Skeleton King
+174,174,Archer Queen
+175,175,Golden Knight
+176,176,Skeleton Dragons
+177,177,Mother Witch
+178,178,Electro Spirit
+179,179,Electro Giant
+180,180,Cannon
+181,181,Goblin Hut
+182,182,Mortar
+183,183,Inferno Tower
+184,184,Bomb Tower
+185,185,Barbarian Hut
+186,186,Tesla
+187,187,Elixir Collector
+188,188,X-Bow
+189,189,Tombstone
+190,190,Furnace
 191,191,Goblin Cage
 192,192,Goblin Drill
 193,193,Fireball
