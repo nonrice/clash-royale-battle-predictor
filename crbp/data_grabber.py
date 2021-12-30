@@ -34,7 +34,7 @@ locations_list = ["57000056", "57000249", "57000216", "57000077", "57000122"]
 for location in locations_list:
     print("Accessing data from location: " + location + " (" + requests.get(url + "locations/" + location, headers=header).json()["name"] + ")")
     top_players = requests.get(url + "locations/" + location + "/rankings/players", headers=header, params={"limit": 1000})
-    for i in tqdm(range(0, 10)):
+    for i in tqdm(range(0, 1000)):
         try:
             battle_log = requests.get(url + "players/%23" + (top_players.json()["items"][i]["tag"])[1:] + "/battlelog", headers=header)
             for j in range(0, 25):
