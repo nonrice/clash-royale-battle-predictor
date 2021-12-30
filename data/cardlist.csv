@@ -1,25 +1,25 @@
 ,0,1
 0,0,Knight
 1,1,Archers
-2,2,Goblins
-3,3,Giant
+2,2,
+3,3,
 4,4,P.E.K.K.A
-5,5,Minions
+5,5,
 6,6,Balloon
-7,7,Witch
-8,8,Barbarians
+7,7,
+8,8,
 9,9,Golem
 10,10,Skeletons
 11,11,Valkyrie
-12,12,Skeleton Army
+12,12,
 13,13,Bomber
 14,14,Musketeer
 15,15,Baby Dragon
 16,16,Prince
-17,17,Wizard
-18,18,Mini P.E.K.K.A
+17,17,
+18,18,
 19,19,Spear Goblins
-20,20,Giant Skeleton
+20,20,
 21,21,Hog Rider
 22,22,Minion Horde
 23,23,Ice Wizard
@@ -27,13 +27,13 @@
 25,25,Guards
 26,26,Princess
 27,27,Dark Prince
-28,28,Three Musketeers
-29,29,Lava Hound
+28,28,
+29,29,
 30,30,Ice Spirit
 31,31,Fire Spirit
 32,32,Miner
 33,33,Sparky
-34,34,Bowler
+34,34,
 35,35,Lumberjack
 36,36,Battle Ram
 37,37,Inferno Dragon
@@ -46,17 +46,17 @@
 44,44,Hunter
 45,45,Executioner
 46,46,Bandit
-47,47,Royal Recruits
+47,47,
 48,48,Night Witch
 49,49,Bats
 50,50,Royal Ghost
 51,51,Ram Rider
-52,52,Zappies
+52,52,
 53,53,Rascals
 54,54,Cannon Cart
 55,55,Mega Knight
-56,56,Skeleton Barrel
-57,57,Flying Machine
+56,56,
+57,57,
 58,58,Wall Breakers
 59,59,Royal Hogs
 60,60,Goblin Giant
@@ -68,21 +68,21 @@
 66,66,
 67,67,Elixir Golem
 68,68,Battle Healer
-69,69,Skeleton King
+69,69,
 70,70,
 71,71,
 72,72,Archer Queen
 73,73,
 74,74,Golden Knight
-75,75,Goblin Hut
+75,75,
 76,76,Mortar
 77,77,Inferno Tower
 78,78,Bomb Tower
 79,79,Barbarian Hut
 80,80,Tesla
-81,81,Elixir Collector
+81,81,
 82,82,X-Bow
-83,83,Mother Witch
+83,83,Tombstone
 84,84,Electro Spirit
 85,85,Electro Giant
 86,86,Goblin Cage
@@ -93,18 +93,18 @@
 91,91,Rocket
 92,92,Goblin Barrel
 93,93,Freeze
-94,94,Mirror
+94,94,
 95,95,Lightning
 96,96,Zap
 97,97,Poison
 98,98,Graveyard
 99,99,The Log
 100,100,Tornado
-101,101,Clone
+101,101,
 102,102,Earthquake
 103,103,Barbarian Barrel
 104,104,Heal Spirit
-105,105,Knight
+105,105,Giant Snowball
 106,106,Archers
 107,107,Goblins
 108,108,Giant
@@ -178,13 +178,13 @@
 176,176,
 177,177,Archer Queen
 178,178,
-179,179,Cannon
+179,179,Golden Knight
 180,180,Goblin Hut
 181,181,Mortar
 182,182,Inferno Tower
 183,183,Bomb Tower
 184,184,Barbarian Hut
-185,185,Skeleton Dragons
+185,185,Tesla
 186,186,Elixir Collector
 187,187,X-Bow
 188,188,Tombstone
