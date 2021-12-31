@@ -4,7 +4,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 
 battles_df = pd.read_csv("../data/data.csv").iloc[:, 1:214]
-model = TSNE(verbose=1, n_iter=1000, perplexity=42, learning_rate=20)
+model = TSNE(verbose=1, n_iter=20000, perplexity=42, learning_rate=20)
 
 features = model.fit_transform(battles_df)
 battles_df["x"] = features[:,0]
