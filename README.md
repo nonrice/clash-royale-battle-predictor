@@ -6,7 +6,7 @@ Top ladder battles are accessed through the [Clash Royale API](https://developer
 
 ## Progress
 ```
-Raw Neural Network:
+ANN:
 Decks Only, Various configurations:
     RESULT: validation accuracy ~60%
 
