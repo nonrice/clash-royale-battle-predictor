@@ -1,4 +1,4 @@
-Raw Neural Network:
+ANN:
 Decks Only, Various configurations:
     RESULT: validation accuracy ~60%
 
