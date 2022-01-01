@@ -1,11 +1,11 @@
 Raw Neural Network:
 Decks Only, Various configurations:
-    **validation accuracy ~60%**
+    RESULT: validation accuracy ~60%
 
 SVM:
 Decks Only, Chi2 SelectKBest 106:
     "kernel": RBF
-    **validation accuracy 60.00936822999005%**
+    RESULT: validation accuracy 60.00936822999005%
 
 XGBoost:
 Decks Only, GridCV Optimized:
@@ -15,4 +15,4 @@ Decks Only, GridCV Optimized:
     "subsample": 1,
     "colsample_bytree": 0.92,
     "objective": "binary:logistic"
-    **validation accuracy 61.0876%**
+    RESULT: validation accuracy 61.0876%
