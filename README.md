@@ -5,7 +5,26 @@ By collecting battle data from top players, the goal is to train an artificial n
 Top ladder battles are accessed through the [Clash Royale API](https://developer.clashroyale.com/#/). The cards in each player's decks and the outcome of each battle are encoded through one-hot encoding, creating roughly 200 features. Several thousand samples are created and then fed into an artificial neural network, which is trained to recognize the impact each player's deck configuration impacts their win/loss chances against another player's configuration.
 
 ## Progress
-Current results can accurately predict battle outcomes with up to 60% accuracy. There is a slight chance this could be the limit, knowing that games akin to these require much more than a good deck configuration. While this is the boring answer, I am hopeful that in time, we will see the exciting one.
+```
+Raw Neural Network:
+Decks Only, Various configurations:
+    **validation accuracy ~60%**
+
+SVM:
+Decks Only, Chi2 SelectKBest 106:
+    "kernel": RBF
+    **validation accuracy 60.00936822999005%**
+
+XGBoost:
+Decks Only, GridCV Optimized:
+    "max_depth": 7,
+    "min_child_weight": 12,
+    "eta": 0.2,
+    "subsample": 1,
+    "colsample_bytree": 0.92,
+    "objective": "binary:logistic"
+    **validation accuracy 61.0876%**
+```
 
 ## Used Packages
 ```
