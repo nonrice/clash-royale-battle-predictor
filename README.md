@@ -6,7 +6,7 @@ Top ladder battles are accessed through the [Clash Royale API](https://developer
 
 ## Progress
 - Updated training data to contain a larger list of Clash Royale ladder battles (3/4ths of 1 million)
-- Started configuring and training neural networks.
+- [Started configuring and training neural networks.](https://github.com/nonrice/clash-royale-battle-predictor/blob/main/logs.md)
 
 #### Want to download the data? Visit and download `data/data.csv` from this repo.
 - The first 106 cells describe **Player A's Deck.** The second 106 cells describe **Player B's Deck.** These sections are the result of One-Hot-Encoding. Encoding table can be found at `data/cardlist.csv`
