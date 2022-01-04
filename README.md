@@ -9,9 +9,9 @@ Top ladder battles are accessed through the [Clash Royale API](https://developer
 - Started configuring and training neural networks.
 
 #### Want to download the data? Visit and download `data/data.csv` from this repo.
-    - The first 106 cells describe **Player A's Deck.** The second 106 cells describe **Player B's Deck.** These sections are the result of One-Hot-Encoding. Encoding table can be found at `data/cardlist.csv`
-    - The next two columns describe the player's **trophy counts.**
-    - The final columns describe the **outcome of the battle.** `1` is displayed if Player A wins. Otherwise, `0`
+- The first 106 cells describe **Player A's Deck.** The second 106 cells describe **Player B's Deck.** These sections are the result of One-Hot-Encoding. Encoding table can be found at `data/cardlist.csv`
+- The next two columns describe the player's **trophy counts.**
+- The final columns describe the **outcome of the battle.** `1` is displayed if Player A wins. Otherwise, `0`
 
 ## Used Packages
 ```
