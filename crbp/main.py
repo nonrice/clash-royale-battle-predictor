@@ -54,15 +54,16 @@ plt.plot(epochs_hist.history['loss'])
 plt.plot(epochs_hist.history['val_loss'])
 plt.show()
 
-evaluation = model.evaluate(X_test, y_test)
-print("Test Accuracy: {}".format(evaluation[1]))
-y_pred = model.predict_classes(X_test) 
+
+y_pred = model.predict(X_test) 
+y_pred = [1 if x >= 0.5 else 0 for x in y_pred]
 
 tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
-print("True Negative: ", tn)
-print("False Positive: ", fp)
-print("False Negative: ", fn)
-print("True Positive: ", tp)
+print("True Negative: ", str(tn))
+print("False Positive: ", str(fp))
+print("False Negative: ", str(fn))
+print("True Positive: ", str(tp))
+print("Accuracy", str((tp+tn)/(tp+tn+fp+fn)))
 
 if input("Save model? (y/n)") == "y":
     model.save("../models/trial2.h5")
