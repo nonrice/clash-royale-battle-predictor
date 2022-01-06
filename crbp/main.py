@@ -19,7 +19,7 @@ for i, row in battles_df.iterrows():
     if diff > 1000:
         outliers.append(i)
 
-battles_df.drop(battles_df.index[outliers])   
+battles_df = battles_df.drop(battles_df.index[outliers])   
 
 X = battles_df.iloc[:,1:215]
 y = battles_df.iloc[:,215]
