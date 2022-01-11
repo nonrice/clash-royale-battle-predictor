@@ -101,4 +101,5 @@ print("True Positive:", tp)
 print("Final Accuracy:", (tp+tn)/(tp+tn+fp+fn))
 
 if input("Save model? (y/n)") == "y":
-    model.save("../models/trial2.h5")
+    model.save("../models/{}.h5".format(input("File name? ")))
+    
