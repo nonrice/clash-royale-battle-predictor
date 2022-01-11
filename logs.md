@@ -14,11 +14,24 @@ Trials for data models are recorded here.
     - Training: `batch_size=64`
     - **Results: Stopped at `31/512` epochs; Validation Accuracy is `0.583`**
 - Trial 2:
-    - Hidden Layers
+    - Hidden Layers:
         - 1: `neurons=144`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
         - 2: `neurons=144`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
         - 3: (Output): `activation="sigmoid"`, `kernel_regularizer=L1(0.0001)`
     - Optimizer: `Adam`, `learning_rate=0.00025`
     - Training: `batch_size=128`
     - **Results: Stopped at `85/512` epochs' Validation Accuracy is `0.592`**
+- Trial 3:
+    - Hidden Layers:
+        - 1: `neurons=144`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
+        - 2: `neurons=72`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
+        - 3: `neurons=36`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
+        - 4: `neurons=36`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
+        - 5: `neurons=36`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
+        - 6: `neurons=36`, `activation="relu"`, `kernel_regularizer=L1(0.0001)`, `kernel_initializer="he_uniform"`
+        - 7: (Output) `activation="sigmoid"`, `kernel_regularizer=L1(0.0001)`
+    - Optimizer: `Adam`, `learning_rate=0.00025`
+    - Training: `batch_size=196`
+    - **Results: Stopped at `38/512` epochs' Validation Accuracy is `0.597`**
+
 
