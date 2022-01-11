@@ -1,5 +1,5 @@
 # Clash Royale Battle Predictor
-By collecting battle data from top players, the goal is to train an artificial neural network to predict the outcome of any given card matchup.
+Neural network trained to predict the outcome of Clash Royale battles.
 
 ## Process
 Top ladder battles are accessed through the [Clash Royale API](https://developer.clashroyale.com/#/). The cards in each player's decks and the outcome of each battle are encoded through one-hot encoding, creating roughly 200 features. Several thousand samples are created and then fed into a classifier, which is trained to recognize the impact each player's deck configuration impacts their win/loss chances against another player's configuration.
