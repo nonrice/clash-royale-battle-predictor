@@ -73,7 +73,6 @@ for c in tqdm(range(0, count), position=0):
                     encoded_battle = encode_battle(battle)
                     data.append(encoded_battle)
         
-
 cols = [
     "p1card1",
     "p1card2",
