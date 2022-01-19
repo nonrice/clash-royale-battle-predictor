@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
+import joblib
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.regularizers import L1
@@ -49,6 +50,7 @@ y = df_enc.iloc[:,214]
 
 scaler = MinMaxScaler()
 X = scaler.fit_transform(X)
+joblib.dump(scaler, "../models/scaler.save") 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
