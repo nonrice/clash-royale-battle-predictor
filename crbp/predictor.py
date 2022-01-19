@@ -30,13 +30,13 @@ x_enc[212] = x[16]
 x_enc[213] = x[17]
 
 scaler = joblib.load("../models/scaler.save")
-x_enc = scaler.transform([x_enc])[0]
+x_enc = scaler.transform([x_enc])
 
-pred = model.predict(x_enc)
+pred = model.predict(x_enc)[0][0]
 if pred >= 0.5:
     print("Prediction: Player 1 Wins")
-    print("Confidence: {}".format(pred-0.5))
+    print("Advantage: {}".format((pred-0.5)*2))
 else:
     print("Prediction: Player 2 Wins")
-    print("Confidence: {}".format(0.5-pred))
+    print("Advantage: {}".format((0.5-pred)*2))
  
