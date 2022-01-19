@@ -15,8 +15,8 @@ x = []
 for p in range(1, 3):
     for c in range(1, 9):
         card = input("Player {} card {}? ".format(p, c))
-        while card not in card_dict:
-            print("Card '{}' does not exist.".format(card))
+        while card not in card_dict or card_dict[card] + (p-1)*106 in x:
+            print("Card '{}' does not exist, or is a duplicate.".format(card))
             card = input("Player {}'s card {}? ".format(p, c))
 
         x.append(card_dict[card] + (p-1)*106)
@@ -34,10 +34,11 @@ scaler = joblib.load("../models/{}/scaler.save".format(model_dir))
 x_enc = scaler.transform([x_enc])
 
 pred = model.predict(x_enc)[0][0]
+print("-----")
 if pred >= 0.5:
     print("Prediction: Player 1 Wins")
     print("Advantage: {}".format((pred-0.5)*2))
 else:
     print("Prediction: Player 2 Wins")
     print("Advantage: {}".format((0.5-pred)*2))
- 
+print("-----")

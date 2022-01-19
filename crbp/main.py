@@ -87,8 +87,8 @@ if input("Show loss graph from training? (y/n) ") == "y":
     plt.figure(dpi=100)
     plt.plot(epochs_hist.history['loss'], label="Training Loss")
     plt.plot(epochs_hist.history['val_loss'], label="Validation Loss")
-    plt.show()
     print("Close the graph window to continue the program.")
+    plt.show()
 
 print("Evaluating model on new data...")
 y_pred = model.predict(X_test) 
@@ -106,4 +106,4 @@ if input("Save model? (y/n)") == "y":
     os.mkdir("../models/{}".format(model_dir))
     model.save("../models/{}/model.h5".format(model_dir))
     joblib.dump(scaler, "../models/{}/scaler.save".format(model_dir)) 
-    
+    print("Model saved at directory {} in ../models/".format(model_dir))
