@@ -66,7 +66,7 @@ model.add(Dense(1, activation="sigmoid", kernel_regularizer=L1(0.0001)))
 model.summary()
 
 model.compile(
-    optimizer=Adam(learning_rate=0.00025),
+    optimizer=Adam(learning_rate=0.0025),
     loss="binary_crossentropy",
     metrics=["accuracy"]
 )
@@ -75,7 +75,7 @@ epochs_hist = model.fit(
     X_train,
     y_train,
     shuffle=True,
-    epochs=128,
+    epochs=10,
     batch_size=196,
     verbose=0,
     validation_split=0.2,

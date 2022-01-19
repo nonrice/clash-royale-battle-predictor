@@ -6,7 +6,7 @@ from tensorflow import keras
 card_list = pd.read_csv("../data/cardlist.csv")
 card_dict = {} 
 for row in card_list.itertuples():
-    card_dict[row[3]] = row[2]
+    card_dict[row[3].lower()] = row[2]
 
 model_dir = input("Saved model name? ")
 model = keras.models.load_model("../models/{}/model.h5".format(model_dir))
@@ -14,10 +14,10 @@ model = keras.models.load_model("../models/{}/model.h5".format(model_dir))
 x = []
 for p in range(1, 3):
     for c in range(1, 9):
-        card = input("Player {} card {}? ".format(p, c))
+        card = input("Player {}'s card {}? ".format(p, c)).lower()
         while card not in card_dict or card_dict[card] + (p-1)*106 in x:
             print("Card '{}' does not exist, or is a duplicate.".format(card))
-            card = input("Player {}'s card {}? ".format(p, c))
+            card = input("Player {}'s card {}? ".format(p, c)).lower()
 
         x.append(card_dict[card] + (p-1)*106)
 
