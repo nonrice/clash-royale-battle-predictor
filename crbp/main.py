@@ -50,7 +50,6 @@ y = df_enc.iloc[:,214]
 
 scaler = MinMaxScaler()
 X = scaler.fit_transform(X)
-joblib.dump(scaler, "../models/scaler.save") 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
@@ -103,5 +102,8 @@ print("True Positive:", tp)
 print("Final Accuracy:", (tp+tn)/(tp+tn+fp+fn))
 
 if input("Save model? (y/n)") == "y":
-    model.save("../models/{}.h5".format(input("File name? ")))
+    model_dir = input("Model name? ")
+    os.mkdir("../models/{}".format(model_dir))
+    model.save("../models/{}/model.h5".format(model_dir))
+    joblib.dump(scaler, "../models/{}/scaler.save".format(model_dir)) 
     
