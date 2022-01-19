@@ -2,6 +2,9 @@ import pandas as pd
 import joblib
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow import keras
+import warnings
+
+warnings.filterwarnings("ignore") # Remove redundant sklearn warning about column names for cosmetics :) 
 
 card_list = pd.read_csv("../data/cardlist.csv")
 card_dict = {} 
