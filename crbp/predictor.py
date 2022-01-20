@@ -39,9 +39,9 @@ x_enc = scaler.transform([x_enc])
 pred = model.predict(x_enc)[0][0]
 print("-----")
 if pred >= 0.5:
-    print("Prediction: Player 1 Wins")
-    print("Advantage: {}".format((pred-0.5)*2))
+    print("Prediction  ->  Player 1 Wins")
+    print("Advantage   ->  + {} / 1.00000".format(round((pred-0.5)*2, 5)))
 else:
-    print("Prediction: Player 2 Wins")
-    print("Advantage: {}".format((0.5-pred)*2))
+    print("Prediction  ->  Player 2 Wins")
+    print("Advantage   ->  {} / 1.00000".format(round((0.5-pred)*2, 5)))
 print("-----")
