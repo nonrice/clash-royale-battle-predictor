@@ -22,6 +22,7 @@ Neural network trained to predict the outcome of Clash Royale battles.
 - `main.ipynb` is the full training process, but with detailed anotations. 
 - `data_grabber.py` collects training data by iterating through player battle logs in a list of Clash Royale clans. Output is saved at `/data/data_ord.csv`, and `/data/cardlist.csv` provides a key to translate card numbers into their names.
 
+[Made by @nonrice on Github.](https://github.com/nonrice)
 
 # Dependencies
 ### Required Packages (Predictor)
