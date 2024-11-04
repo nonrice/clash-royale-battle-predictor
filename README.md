@@ -4,7 +4,7 @@ Neural network trained to predict the outcome of Clash Royale battles.
 ## Details
 - Takes in each player's deck and trophy counts. Returns the predicted outcome of their battle.
 - Includes a data grabber `/crbp/data_grabber.py` to compile massive lists of battles (training data) through the [Clash Royale API](https://developer.clashroyale.com)
-- Want to see other experiences with the same dataset? [Visit the Kaggle page here.](https://www.kaggle.com/nonrice/clash-royale-battles-upper-ladder-december-2021)
+- Scraped dataset has been uploaded: [Visit Kaggle page here.](https://www.kaggle.com/nonrice/clash-royale-battles-upper-ladder-december-2021)
 
 ![terminal demo](https://i.ibb.co/vBRKTJh/crbpterminaldemo.png)
 
